@@ -18,19 +18,19 @@ DevOps 로드맵
 | 출처: [`kamranahmed`](http://kamranahmed.info)                     |
 
 -	카테고리
-	- 	[Operating_System](#operating_system)
+	- 	[Operating System](#operating system)
 	- 	[Cloud](#cloud)
 	- 	[Automation](#automation)
-	- 	[CI_CD](#ci_cd)
-	- 	[Monitoring_and_Alerting](#monitoring_and_alerting)
-	- 	[Log_management_And_Analysis](#log_management_and_analysis)
-	- 	[Cluster_Managers](#cluster_managers)
+	- 	[CI/CD](#ci/cd)
+	- 	[Monitoring and Alerting](#monitoring and alerting)
+	- 	[Log management and Analysis](#log management and analysis)
+	- 	[Cluster Managers](#cluster managers)
 	- 	[Containers](#containers)
-	- 	[Web_Servers](#web_servers)
-	- 	[Love_for_Terminal](#love_for_terminal)
+	- 	[Web Servers](#web servers)
+	- 	[Love for Terminal](#love for terminal)
 	- 	[ETC](etc)
 
-Operating_System
+Operating System
 ----------------
 -	Linux
 	-	Ubuntu
@@ -67,7 +67,7 @@ Automation
 -	[SaltStack](https://saltstack.com/)
 -	[Teraform](https://www.terraform.io/)
 
-CI_CD
+CI/CD
 -----
 -	[Bamboo](https://ko.atlassian.com/software/bamboo)
 -	[Buildkite](https://buildkite.com/)
@@ -78,7 +78,7 @@ CI_CD
 -	[Shippable](https://app.shippable.com/)
 -	[Travis](https://travis-ci.org/)
 
-Monitoring_and_Alerting
+Monitoring and Alerting
 -----------------------
 -	[AppDynamics](https://www.appdynamics.com/)
 -	[Graphite](https://graphiteapp.org/)
@@ -89,14 +89,14 @@ Monitoring_and_Alerting
 -	[Prometheus](https://prometheus.io/)
 -	[Zabbix](https://www.zabbix.com/)
 
-Log_management_And_Analysis
+Log management and Analysis
 ---------------------------
 -	[ELK](https://www.elastic.co/kr/elk-stack)
 -	[Graylog](https://www.graylog.org/)
 -	[Papertrail](https://papertrailapp.com/)
 -	[Splunk](https://www.splunk.com/ko_kr)
 
-Cluster_Managers
+Cluster Managers
 ----------------
 -	[DockerSwam](https://docs.docker.com/engine/swarm/)
 -	[Kubernetes](https://kubernetes.io/)
@@ -110,7 +110,7 @@ Containers
 -	[LXC](https://linuxcontainers.org/ko/lxc/introduction/)
 -	[rkt](https://coreos.com/rkt/)
 
-Web_Servers
+Web Servers
 -----------
 -	[Apache](https://httpd.apache.org/)
 -	[Caddy](https://caddyserver.com/)
@@ -118,7 +118,7 @@ Web_Servers
 -	[Nginx](https://nginx.org/en/)
 -	[Tomcat](http://tomcat.apache.org/)
 
-Love_for_Terminal
+Love for Terminal
 -----------------
 -	BashScripts
 -	Vim
