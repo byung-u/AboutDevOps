@@ -9,7 +9,9 @@ DevOps 툴채인
 ----------
 | ![DevOps Toolchain](https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg) |
 | :----:                                                                                                        |
-| 출처: [`wikipedia DevOps Toolchain`](https://en.wikipedia.org/wiki/DevOps_toolchain)                          |
+| PLAN 👉 CREATE 👉 VERIFY 👉 PACKAGE 👉 RELEASE 👉 CONFIGURE 👉 MONITOR 👉 repeat |
+| 출처: [`wikipedia DevOps Toolchain`](https://en.wikipedia.org/wiki/DevOps_toolchain) |
+
 
 DevOps 로드맵
 ----------
