@@ -7,25 +7,28 @@ DevOps란 무엇인가?
 
 DevOps 툴채인
 ----------
-![DevOps Toolchain](https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg?style=centerimg)
-출처: [`wikipedia DevOps Toolchain`](https://en.wikipedia.org/wiki/DevOps_toolchain)
+| ![DevOps Toolchain](https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg) |
+| :----:                                                                                                        |
+| 출처: [`wikipedia DevOps Toolchain`](https://en.wikipedia.org/wiki/DevOps_toolchain)                          |
 
 DevOps 로드맵
 ----------
-![DevOps Roadmap](https://i.imgur.com/pyg9mH1.png?style=centerimg)
-출처: [`kamranahmed`](http://kamranahmed.info)
+| ![DevOps Roadmap](https://i.imgur.com/pyg9mH1.png) |
+| :----:                                                             |
+| 출처: [`kamranahmed`](http://kamranahmed.info)                     |
 
-- 	[Operating_System](#operating_system)
-- 	[Cloud](#cloud)
-- 	[Automation](#automation)
-- 	[CI_CD](#ci_cd)
-- 	[Monitoring_and_Alerting](#monitoring_and_alerting)
-- 	[Log_management_And_Analysis](#log_management_and_analysis)
-- 	[Cluster_Managers](#cluster_managers)
-- 	[Containers](#containers)
-- 	[Web_Servers](#web_servers)
-- 	[Love_for_Terminal](#love_for_terminal)
-- 	[ETC](etc)
+-	카테고리
+	- 	[Operating_System](#operating_system)
+	- 	[Cloud](#cloud)
+	- 	[Automation](#automation)
+	- 	[CI_CD](#ci_cd)
+	- 	[Monitoring_and_Alerting](#monitoring_and_alerting)
+	- 	[Log_management_And_Analysis](#log_management_and_analysis)
+	- 	[Cluster_Managers](#cluster_managers)
+	- 	[Containers](#containers)
+	- 	[Web_Servers](#web_servers)
+	- 	[Love_for_Terminal](#love_for_terminal)
+	- 	[ETC](etc)
 
 Operating_System
 ----------------
