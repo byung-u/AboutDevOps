@@ -8,21 +8,17 @@ DevOps란 무엇인가?
 DevOps 툴채인
 ----------
 ![DevOps Toolchain](https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg?style=centerimg)
-<p align="center">
-  출처: [`wikipedia DevOps Toolchain`](https://en.wikipedia.org/wiki/DevOps_toolchain)
-</p>
+출처: [`wikipedia DevOps Toolchain`](https://en.wikipedia.org/wiki/DevOps_toolchain)
 
 DevOps 로드맵
 ----------
 ![DevOps Roadmap](https://i.imgur.com/pyg9mH1.png?style=centerimg)
-<p align="center">
-  출처: [`kamranahmed`](http://kamranahmed.info)
-</p>
+출처: [`kamranahmed`](http://kamranahmed.info)
 
 - 	[Operating_System](#operating_system)
 - 	[Cloud](#cloud)
 - 	[Automation](#automation)
-- 	[CI/CD](#ci_cd)
+- 	[CI_CD](#ci_cd)
 - 	[Monitoring_and_Alerting](#monitoring_and_alerting)
 - 	[Log_management_And_Analysis](#log_management_and_analysis)
 - 	[Cluster_Managers](#cluster_managers)
@@ -34,77 +30,90 @@ DevOps 로드맵
 Operating_System
 ----------------
 -	Linux
+	-	Ubuntu
+	-	Debian
+	-	RHEL
+	-	CentOS
+	- 	Fedora
+	- 	SUSE Linux
 -	Unix
+	- 	NetBSD
+	- 	OpenBSD
+	- 	FreeBSD
 
 Cloud
 -----
--	Cloud Foundry
--	Rockspace
--	AWS
--	Heroku
--	Azure
--	Google Cloud Platform
--	Digitalocean
+-	[AWS](https://aws.amazon.com/?nc2=h_lg)
+-	[Azure](https://azure.microsoft.com/ko-kr/)
+-	[Cloud Foundry](https://www.cloudfoundry.org/)
+-	[Digitalocean](https://www.digitalocean.com/)
+-	[Google Cloud Platform](https://cloud.google.com/?hl=ko)
+-	[Heroku](https://www.heroku.com/)
+-	[Rackspace](https://www.rackspace.com/cloud)
 
 Automation
 ----------
--	Teraform
--	CF Engine
--	Pocker
--	SaltStack
--	Chef
--	Ansible
--	Puppet
--	Powershell
--	AWS Cloudformation
+- 	[Ansible](http://www.ansible.com/)
+-	[AWS Cloudformation](https://aws.amazon.com/ko/cloudformation/)
+-	[CFEngine](https://cfengine.com/)
+-	[Chef](https://www.chef.io/)
+-	[Packer](https://www.packer.io/)
+-	[Puppet](https://puppet.com/)
+-	[Powershell](https://docs.microsoft.com/en-us/powershell/)
+-	[Puppet](https://puppetlabs.com/)
+-	[SaltStack](https://saltstack.com/)
+-	[Teraform](https://www.terraform.io/)
 
-CI/CD
+CI_CD
 -----
--	Jenkins
--	Travis
--	CircleCI
--	Drone
--	Bamboo
+-	[Bamboo](https://ko.atlassian.com/software/bamboo)
+-	[Buildkite](https://buildkite.com/)
+-	[CircleCI](https://circleci.com/)
+-	[Drone](https://github.com/drone)
+-	[Gitlab CI](https://about.gitlab.com/)
+- 	[Jenkins](https://jenkins-ci.org/)
+-	[Shippable](https://app.shippable.com/)
+-	[Travis](https://travis-ci.org/)
 
 Monitoring_and_Alerting
 -----------------------
--	AppDynamics
--	Noglos
--	NewRelic
--	PagerDuty
--	Munin
--	Graphite
--	Prometheus
--	Zabbix
+-	[AppDynamics](https://www.appdynamics.com/)
+-	[Graphite](https://graphiteapp.org/)
+-	[Munin](http://munin-monitoring.org/)
+-	[Nagios](https://www.nagios.org/)
+-	[NewRelic](https://newrelic.com/)
+-	[PagerDuty](https://www.pagerduty.com/)
+-	[Prometheus](https://prometheus.io/)
+-	[Zabbix](https://www.zabbix.com/)
 
 Log_management_And_Analysis
 ---------------------------
--	Papertrail
--	ELK
--	Graylog
--	Splunk
+-	[ELK](https://www.elastic.co/kr/elk-stack)
+-	[Graylog](https://www.graylog.org/)
+-	[Papertrail](https://papertrailapp.com/)
+-	[Splunk](https://www.splunk.com/ko_kr)
 
 Cluster_Managers
 ----------------
--	Kubernetes
--	Mesosphere
--	Mesos
--	DockerSwam
--	Nomad
+-	[DockerSwam](https://docs.docker.com/engine/swarm/)
+-	[Kubernetes](https://kubernetes.io/)
+-	[Mesosphere](https://mesosphere.com/)
+-	[Mesos](http://mesos.apache.org/)
+-	[Nomad](https://www.nomadproject.io/)
 
 Containers
 ----------
--	Docker
--	rkt
--	LXC
+-	[Docker](https://www.docker.com/)
+-	[LXC](https://linuxcontainers.org/ko/lxc/introduction/)
+-	[rkt](https://coreos.com/rkt/)
 
 Web_Servers
 -----------
--	Apache
--	Nginx
--	Tomcat
--	IIS
--	Caddy
+-	[Apache](https://httpd.apache.org/)
+-	[Caddy](https://caddyserver.com/)
+-	[IIS](https://www.iis.net/)
+-	[Nginx](https://nginx.org/en/)
+-	[Tomcat](http://tomcat.apache.org/)
 
 Love_for_Terminal
 -----------------
@@ -124,7 +133,6 @@ ETC
 -	Setting up a firewall
 -	TLS, STARTTLS, SSL, HTTPS, SCP, SSH, SFTP
 -	Postmortem analysis when something bad happens
-
 
 
 Awosome DevOps
