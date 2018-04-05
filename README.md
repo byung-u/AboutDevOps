@@ -48,7 +48,7 @@ Operating_System
 
 Cloud
 -----
--	[AWS](https://aws.amazon.com/?nc2=h_lg)
+-	[AWS](#aws)
 -	[Azure](https://azure.microsoft.com/ko-kr/)
 -	[Cloud Foundry](https://www.cloudfoundry.org/)
 -	[Digitalocean](https://www.digitalocean.com/)
