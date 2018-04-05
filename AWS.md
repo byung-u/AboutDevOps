@@ -1,8 +1,10 @@
-[AWS](https://aws.amazon.com/?nc2=h_lg)
-=======================================
-Client의 수 증가에 따른 구조 변경 확인
-[Ver1](https://www.slideshare.net/YoungJinLee/aws-seaws)
-[Ver2](https://www.slideshare.net/YoungJinLee/awscommunityday-2017-5)
+AWS
+===
+[ 👉 AWS](https://aws.amazon.com/?nc2=h_lg) <br/>
+
+Client의 수 증가에 따른 Infra 구조 변경 확인
+* [Ver1](https://www.slideshare.net/YoungJinLee/aws-seaws)
+* [Ver2](https://www.slideshare.net/YoungJinLee/awscommunityday-2017-5)
 
 3만
 --
@@ -12,22 +14,22 @@ VPC + Public ELB
 -	[VPC](https://aws.amazon.com/ko/documentation/vpc/)
 	- 	Amazon Virtual Private Cloud(Amazon VPC)는 Amazon Web Services(AWS) 리소스를 고객이 정의한 가상 네트워크에서 실행할 수 있는 서비스입니다. 이 가상 네트워크는 AWS의 확장 가능한 인프라를 사용한다는 이점과 함께 고객의 자체 데이터 센터에서 운영하는 기존 네트워크와 매우 유사합니다.
 -	[Public ELB](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/classic/elb-manage-subnets.html)
-	- 	VPC에서 클래식 로드 밸런서에 대한 서브넷을 추가 또는 제거
+	- 	VPC에서 클래식 로드 밸런서에 대한 서브넷을 추가 또는 제거 참고
 
 15만
 ---
 
 VPC + Public ELB 
-**+ DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ**
-**+ CloudWatch**
+**[+] DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ**
+**[+] CloudWatch**
 
 -	MYSQL Master + Slave
 - 	[CloudWatch](https://aws.amazon.com/ko/cloudwatch/)
 	-	Amazon CloudWatch는 AWS 클라우드 리소스와 AWS에서 실행되는 애플리케이션을 위한 모니터링 서비스입니다. Amazon CloudWatch를 사용하여 지표를 수집 및 추적하고, 로그 파일을 수집 및 모니터링하며, 경보를 설정하고, AWS 리소스 변경에 자동으로 대응할 수 있습니다. Amazon CloudWatch는 Amazon EC2 인스턴스, Amazon DynamoDB 테이블, Amazon RDS DB 인스턴스 같은 AWS 리소스뿐만 아니라 애플리케이션과 서비스에서 생성된 사용자 정의 지표 및 애플리케이션에서 생성된 모든 로그 파일을 모니터링할 수 있습니다. Amazon CloudWatch를 사용하여 시스템 전반의 리소스 사용률, 애플리케이션 성능, 운영 상태를 파악할 수 있습니다. 이러한 통찰력을 사용하여 문제에 적절히 대응하고 애플리케이션 실행을 원활하게 유지할 수 있습니다. 
 - 	[Memcached](https://github.com/memcached/memcached) 
-	- 	메모리 캐싱 시스템
-	- 	![With Memcached](https://memcached.org/memcached-usage.png)
-
+	- 	메모리 캐싱 시스템 <br/>
+![With Memcached](https://memcached.org/memcached-usage.png)
+ <br/> <br/>
 - 	[Rabbit MQ](https://www.rabbitmq.com/)
 - 	[Jira](https://ko.atlassian.com/software/jira)
 - 	[Wiki](https://www.mediawiki.org/wiki/MediaWiki)
@@ -38,11 +40,11 @@ VPC + Public ELB
 100만
 ----
 
-VPC + Public ELB 
-+ DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ
-+ CloudWatch
-**+ Auto Scaling + AWS RDS, DMS, SQS, ElastiCache**
-**+ ELK (Elastic Search + Log Stash + Kibana)**
+VPC + Public ELB <br />
+`+` DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ<br />
+`+` CloudWatch<br />
+**`+` Auto Scaling + AWS RDS, DMS, SQS, ElastiCache**<br />
+**`+` ELK (Elastic Search + Log Stash + Kibana)**<br />
 
 -	[Auto Scaling](https://aws.amazon.com/ko/about-aws/whats-new/2018/01/introducing-aws-auto-scaling/) Group 추가
 	-	AWS Auto Scaling은 애플리케이션을 모니터링하고 용량을 자동으로 조정하여, 최저 가격으로 안정적이고 예측 가능한 성능을 유지합니다. AWS Auto Scaling을 사용하면 몇 분 안에 여러 서비스에 걸쳐 여러 리소스에 대해 조정을 설정할 수 있습니다. AWS Auto Scaling은 단순하면서도 강력한 사용자 인터페이스를 제공합니다. 그러한 사용자 인터페이스를 통해 Amazon EC2 인스턴스와 스팟 플릿, Amazon ECS 작업, Amazon DynamoDB 테이블 및 Amazon Aurora 복제본에 대해 조정 계획을 수립할 수 있습니다.   
@@ -56,15 +58,15 @@ VPC + Public ELB
 1000만
 -----
 
-VPC + Public ELB 
-+ DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ
-+ CloudWatch
-+ Auto Scaling + AWS RDS, DMS, SQS, ElastiCache 
-+ ELK (Elastic Search + Log Stash + Kibana)
-**+ AWS EMR Spark, Kinesis, Redis**
-**+ Zeppelin**
-**+ AWS Certificate Manager(ACM)**
-**+ Private Subnet, NAT Gateway**
+VPC + Public ELB <br />
+`+` DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ<br />
+`+` CloudWatch<br />
+`+` Auto Scaling + AWS RDS, DMS, SQS, ElastiCache <br />
+`+` ELK (Elastic Search + Log Stash + Kibana)<br />
+**`+` AWS EMR Spark, Kinesis, Redis**<br />
+**`+` Zeppelin**<br />
+**`+` AWS Certificate Manager(ACM)**<br />
+**`+` Private Subnet, NAT Gateway**<br />
 
 - [`AWS EMR`](https://aws.amazon.com/ko/emr/details/)
 	- Amazon EMR을 사용하면 필요한 용량을 신속하고 손쉽게 프로비저닝할 수 있고 자동이나 수동으로 용량을 추가 및 제거할 수 있습니다. 따라서 처리 요구 사항이 일정하지 않거나 예측 불가능한 경우에 매우 유용합니다. 예를 들어, 야간에 대용량의 처리 작업이 발생할 경우 주간에 100개의 인스턴스가 필요하고 야간에 500개의 인스턴스가 필요할 수 있습니다. 또는 단기간 상당한 용량이 필요할 수도 있습니다. Amazon EMR을 사용하면 신속하게 수백 개 또는 수천 개의 인스턴스를 프로비저닝하고, 컴퓨팅 요구 사항에 맞춰 자동으로 확장하며, 유휴 용량에 대한 비용이 더 이상 청구되지 않도록 작업 완료 시 클러스터를 종료할 수 있습니다.
@@ -82,18 +84,18 @@ VPC + Public ELB
 2000만
 -----
 
-VPC + Public ELB + DB Replication 
-+ Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ
-+ CloudWatch
-+ Auto Scaling + AWS RDS, DMS, SQS, ElastiCache 
-+ ELK (Elastic Search + Log Stash + Kibana)
-+ AWS EMR Spark, Kinesis, Redis
-+ Zeppelin
-+ AWS Certificate Manager(ACM)
-+ Private Subnet, NAT Gateway
-**+ Microservice Architecture(MSA), Spring Boot + Spring Cloud**
-**+ Fraud Detection System(FDS)**
-**+ AWS QuickSight, Route53**
+VPC + Public ELB + DB Replication  <br />
+`+` Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ <br />
+`+` CloudWatch <br />
+`+` Auto Scaling + AWS RDS, DMS, SQS, ElastiCache  <br />
+`+` ELK (Elastic Search + Log Stash + Kibana) <br />
+`+` AWS EMR Spark, Kinesis, Redis <br />
+`+` Zeppelin <br />
+`+` AWS Certificate Manager(ACM) <br />
+`+` Private Subnet, NAT Gateway <br />
+**`+` Microservice Architecture(MSA), Spring Boot + Spring Cloud** <br />
+**`+` Fraud Detection System(FDS)** <br />
+**`+` AWS QuickSight, Route53** <br />
 
 - [`AWS QuickSight`](https://aws.amazon.com/ko/documentation/quicksight/)
 	- Amazon QuickSight는 데이터를 사용하여 시각화를 구축하고, 임의 분석을 수행하고, 신속하게 비즈니스 통찰을 얻을 수 있는 빠른 비즈니스 분석 서비스입니다. QuickSight는 AWS 데이터 소스를 원활하게 검색하고, 조직이 수십만 명의 사용자로 확장할 수 있도록 지원하며, 강력한 인 메모리 엔진(SPICE)을 사용하여 속도와 응답성이 뛰어난 쿼리 성능을 제공합니다. 
@@ -108,24 +110,24 @@ VPC + Public ELB + DB Replication
 3000만
 -----
 
-VPC + Public ELB 
-+ DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ
-+ CloudWatch Logs
-+ Auto Scaling + AWS RDS, DMS, SQS, ElastiCache 
-+ ELK (Elastic Search + Log Stash + Kibana)
-+ AWS EMR Spark, Kinesis, Redis
-+ Zeppelin
-+ AWS Certificate Manager(ACM)
-+ Private Subnet, NAT Gateway
-+ Microservice Architecture(MSA), Spring Boot + Spring Cloud
-+ Fraud Detection System(FDS)
-+ AWS QuickSight, Route53
-**+AWS Inspector**
-**+CloudFront + WAF**
-**+AWS CloudTrail, AWS Config, VPC Flow Log**
-**+S3**
-**+Zabbix + Grafana**
-**+IAM Role, OpenVPN**
+VPC + Public ELB  <br />
+`+` DB Replication + Jira/Wiki/CMS + Jenkins + Memcached + RabbitMQ <br />
+`+` CloudWatch Logs <br />
+`+` Auto Scaling + AWS RDS, DMS, SQS, ElastiCache  <br />
+`+` ELK (Elastic Search + Log Stash + Kibana) <br />
+`+` AWS EMR Spark, Kinesis, Redis <br />
+`+` Zeppelin <br />
+`+` AWS Certificate Manager(ACM) <br />
+`+` Private Subnet, NAT Gateway <br />
+`+` Microservice Architecture(MSA), Spring Boot + Spring Cloud <br />
+`+` Fraud Detection System(FDS) <br />
+`+` AWS QuickSight, Route53 <br />
+**`+` AWS Inspector** <br />
+**`+` CloudFront + WAF** <br />
+**`+` AWS CloudTrail, AWS Config, VPC Flow Log** <br />
+**`+` S3** <br />
+**`+` Zabbix + Grafana** <br />
+**`+` IAM Role, OpenVPN** <br />
 
 - [`AWS Inspector`](https://aws.amazon.com/ko/inspector/)
 	- Amazon Inspector는 AWS 리소스의 보안 및 규정 준수를 개선하는 데 도움이 되는 보안 취약성 평가 서비스입니다. Amazon Inspector는 리소스의 취약성 또는 모범 사례와의 편차를 자동으로 평가한 후, 심각도 수준에 따라 우선순위가 지정된 상세한 보안 평가 결과 목록을 생성합니다. Amazon Inspector에는 AWS 보안 연구원이 정기적으로 업데이트하는 일반 보안 표준 및 취약성 정의와 매핑된 규칙 수백 개의 기술 자료가 포함되어 있습니다.
